@@ -2,8 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      "@styles*": ["./src/styles/*"],
-      "@Redux*": ["./src/redux/*"]
+      "@styles*": ["./src/app/styles/*"],
+      "@App*": ["./src/app/*"],
+      "@Redux*": ["./src/app/redux/*"],
+      "@Component*": ["./src/app/components/*"]
     }
   }
 }

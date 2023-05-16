@@ -1,0 +1,18 @@
+.header {
+  color: #ffffff;
+  height: 54px;
+  background-color: #000;
+  box-shadow: 0 8px 8px -8px #262323;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  &_left {
+    .logo {
+      cursor: pointer;
+    }
+  }
+  &_center {
+  }
+  &_right {
+  }
+}

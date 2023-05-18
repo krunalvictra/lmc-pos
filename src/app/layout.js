@@ -1,3 +1,4 @@
+"use client";
 import { Inter } from "next/font/google";
 import { Providers } from "@Redux/provider";
 import "@styles/customBootstrap.scss";
@@ -16,8 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
       </body>
     </html>
   );

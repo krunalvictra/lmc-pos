@@ -1,8 +1,13 @@
-"use client";
-
 import { store } from "@Redux/store";
 import { Provider } from "react-redux";
+import Authentication from "../components/authentication/authentication";
+import AuthProvider from "./AuthProvider";
 
 export function Providers({ children }) {
-  return <Provider store={store}>{children}</Provider>;
+  return (
+    <AuthProvider>
+      <Authentication />
+      <Provider store={store}>{children}</Provider>
+    </AuthProvider>
+  );
 }

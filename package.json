@@ -11,13 +11,17 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@azure/msal-browser": "^2.37.0",
+    "@azure/msal-react": "^1.5.7",
+    "@microsoft/applicationinsights-web": "^3.0.1",
+    "@reduxjs/toolkit": "^1.9.5",
     "bootstrap": "^5.2.3",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
-    "@reduxjs/toolkit": "^1.9.5",
     "react-redux": "^8.0.5"
   },
   "devDependencies": {

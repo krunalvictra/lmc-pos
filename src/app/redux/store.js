@@ -5,5 +5,5 @@ export const store = configureStore({
   reducer: {
     employeeDetailsReducer,
   },
-  devTools: process.env.NODE_ENV !== "production",
+  devTools: process.env.NEXT_PUBLIC_NODE_ENV !== "production",
 });

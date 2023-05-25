@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className}`}>
         <Providers>
           <Header />
-          <div className="container">
+          <div className="container-fluid">
             <div className="title-header">
               <h2 className="lmc-title">
                 <span>Location Management Center</span>

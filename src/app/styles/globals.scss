@@ -11,9 +11,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  -webkit-font-smoothing: auto;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 html,
 body {
@@ -36,6 +37,11 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+.container-fluid {
+  @media (min-width: 1399px) {
+    max-width: 1400px;
   }
 }
 // -------- rest of the file is omitted for brevity --------

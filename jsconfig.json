@@ -5,7 +5,9 @@
       "@styles*": ["./src/app/styles/*"],
       "@App*": ["./src/app/*"],
       "@Redux*": ["./src/app/redux/*"],
-      "@Component*": ["./src/app/components/*"]
+      "@Component*": ["./src/app/components/*"],
+      "@Hooks*": ["./src/app/hooks/*"],
+      "@Icons*": ["./src/app/components/icons/*"]
     }
   }
 }

@@ -1,6 +1,8 @@
+$primary: #032b43;
+$secondary: #3678b7;
 $theme-colors: (
-  "primary": #07ff66,
-  "secondary": #3bd7ec,
+  "primary": $primary,
+  "secondary": $secondary,
   "success": #22e11c,
   "info": #d9ff50,
   "warning": #ffbe0b,
@@ -12,3 +14,8 @@ $theme-colors: (
 $body-color: #000103;
 
 @import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+}
